@@ -36,7 +36,7 @@
     let processedUrls = 0;
 
     document.addEventListener("DOMContentLoaded", function() {
-      fetch("bdix_server_list.txt")
+      fetch("server_list/sajjad_amin.txt")
         .then(response => response.text())
         .then(text => {
           const urls = text.trim().split('\n');
