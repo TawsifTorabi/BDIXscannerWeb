@@ -46,3 +46,15 @@ body{
     all: unset;
 	cursor: pointer;
   }
+
+  .creatorname{
+      color: white;
+      font-family: 'Kode Mono';
+      font-weight: bolder;
+      position: absolute;
+      top: 57px;
+      left: 169px;
+      font-size: 12px;
+      text-decoration: none;
+      letter-spacing: 2px;
+  }
